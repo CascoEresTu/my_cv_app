@@ -25,7 +25,7 @@ class Hobbies extends StatelessWidget {
                   color: Colors.transparent,
                   child: new Column(children: <Widget>[
                     Card(
-                        color: Color.fromRGBO(119, 34, 155, 0.5),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10.0)),
                         child: Column(
@@ -44,40 +44,6 @@ class Hobbies extends StatelessWidget {
                     Card(
                         color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10.0)),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          children: <Widget>[
-                            ListTile(
-                                leading: CircleAvatar(
-                                    backgroundImage:
-                                        const AssetImage("images/guitarra.png"),
-                                    backgroundColor: Colors.transparent),
-                                title: Text(
-                                    'Me gusta tocar la guitarra y componer musica en MIDI.',
-                                    style: TextStyle(color: Colors.white))),
-                          ],
-                        )),
-                    Card(
-                        color: Color.fromRGBO(104, 76, 108, 0.5),
-                        shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10.0)),
-                        child: Column(
-                          mainAxisSize: MainAxisSize.min,
-                          children: <Widget>[
-                            ListTile(
-                                leading: CircleAvatar(
-                                    backgroundImage:
-                                        const AssetImage("images/guitarra.png"),
-                                    backgroundColor: Colors.transparent),
-                                title: Text(
-                                    'Me gusta tocar la guitarra y componer musica en MIDI.',
-                                    style: TextStyle(color: Colors.white))),
-                          ],
-                        )),
-                    Card(
-                        color: Colors.white.withOpacity(0.3),
-                        shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
@@ -93,7 +59,7 @@ class Hobbies extends StatelessWidget {
                           ],
                         )),
                     Card(
-                        color: Colors.white.withOpacity(0.3),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(

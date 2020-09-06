@@ -16,10 +16,14 @@ class Dwidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
         drawer: Theme(
-          data: Theme.of(context)
-              .copyWith(canvasColor: Colors.black.withOpacity(0.5)),
-          child: new DrawerOnly(),
-        ),
+            data: Theme.of(context)
+                .copyWith(canvasColor: Colors.black.withOpacity(0.5)),
+            child: new ClipRRect(
+              borderRadius: BorderRadius.only(
+                  topRight: Radius.circular(25),
+                  bottomRight: Radius.circular(35)),
+              child: new DrawerOnly(),
+            )),
         appBar: new AppBar(
           title: new Text('Mi CV', style: TextStyle(color: Colors.white)),
           backgroundColor: Colors.black,

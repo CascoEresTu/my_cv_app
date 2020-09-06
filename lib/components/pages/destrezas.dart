@@ -26,7 +26,7 @@ class Destrezas extends StatelessWidget {
                   color: Colors.transparent,
                   child: new Column(children: <Widget>[
                     Card(
-                        color: Colors.white.withOpacity(0.3),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(
@@ -51,7 +51,7 @@ class Destrezas extends StatelessWidget {
                           ],
                         )),
                     Card(
-                        color: Colors.white.withOpacity(0.3),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(
@@ -67,7 +67,7 @@ class Destrezas extends StatelessWidget {
                           ],
                         )),
                     Card(
-                        color: Colors.white.withOpacity(0.3),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(
@@ -83,7 +83,7 @@ class Destrezas extends StatelessWidget {
                           ],
                         )),
                     Card(
-                        color: Colors.white.withOpacity(0.3),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(
@@ -99,7 +99,7 @@ class Destrezas extends StatelessWidget {
                           ],
                         )),
                     Card(
-                        color: Colors.white.withOpacity(0.3),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(
@@ -115,7 +115,7 @@ class Destrezas extends StatelessWidget {
                           ],
                         )),
                     Card(
-                        color: Colors.white.withOpacity(0.3),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(
@@ -131,7 +131,7 @@ class Destrezas extends StatelessWidget {
                           ],
                         )),
                     Card(
-                        color: Colors.white.withOpacity(0.3),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(
@@ -147,7 +147,7 @@ class Destrezas extends StatelessWidget {
                           ],
                         )),
                     Card(
-                        color: Colors.white.withOpacity(0.3),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(
@@ -163,7 +163,7 @@ class Destrezas extends StatelessWidget {
                           ],
                         )),
                     Card(
-                        color: Colors.white.withOpacity(0.3),
+                        color: Color.fromRGBO(167, 43, 110, 0.5),
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(15.0)),
                         child: Column(
